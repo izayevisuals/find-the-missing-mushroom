@@ -1,2 +1,2 @@
 # find-the-missing-mushroom
-A JavaScript game to find the mushroom lost in the forest!
+A JavaScript game to find the lost mushroom in the middle of the forest!
