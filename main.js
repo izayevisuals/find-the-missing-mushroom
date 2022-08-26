@@ -4,6 +4,8 @@ document.getElementById('treeThree').addEventListener('click', hideTreeThree)
 document.getElementById('treeFour').addEventListener('click', hideTreeFour)
 document.getElementById('treeFive').addEventListener('click', hideTreeFive)
 
+// Separated by individual trees
+
 function hideTreeOne() {
     console.log('clicked')
     document.getElementById('treeOne').style.display = 'none'
