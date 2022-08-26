@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(148, 111, 42);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameBox {
+    background: rgb(108,238,251);
+    background: linear-gradient(0deg, rgba(108,238,251,1) 0%, rgba(66,192,255,1) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Silkscreen', cursive;
+    width: 68rem;
+    margin: 3vw;
+    border: 1rem solid black;
+    box-shadow: 0.5rem 0.5rem rgb(50, 50, 50);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+
+.cloud {
+    background-color: white;
+    padding: 0.5rem;
+    width: 98.5%;
+}
+
+.treeBox1 {
+    position: absolute;
+    bottom: 50px; 
+}
+
+.treeBox2 {
+    position: absolute;
+    bottom: 75px;
+    right: 78px; 
+}
+
+.treeBox3 {
+    position: absolute;
+    bottom: 60px;
+    left: 78px; 
+}
+
+img {
+    width: 10rem;
+}
+
+
+.grass {
+    width: 100%;
+    height: 5rem;
+    background-image: url('/Images/grass.png');
+}
+
+
+h1 {
+    font-family: 'Silkscreen', cursive;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+p {
+    text-align: center;
+}
