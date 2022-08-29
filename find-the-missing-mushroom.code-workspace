@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "find-the-missing-mushroom",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
