@@ -13,6 +13,7 @@ document.getElementById('treeTwelve').addEventListener('click', hideTreeTwelve)
 document.getElementById('treeThirteen').addEventListener('click', hideTreeThirteen)
 document.getElementById('treeFourteen').addEventListener('click', hideTreeFourteen)
 document.getElementById('treeFifteen').addEventListener('click', hideTreeFifteen)
+document.getElementById('treeSixteen').addEventListener('click', hideTreeSixteen)
 
 // Separated by individual trees
 
@@ -76,3 +77,8 @@ function hideTreeFourteen() {
 function hideTreeFifteen() {
     document.getElementById('treeFifteen').style.display = 'none'
 }
+
+function hideTreeSixteen() {
+    document.getElementById('treeSixteen').style.display = 'none'
+}
+

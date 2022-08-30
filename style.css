@@ -22,7 +22,6 @@ body {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    
 }
 
 
@@ -36,18 +35,26 @@ body {
     position: absolute;
     bottom: 50px; 
     z-index: 1;
+    margin: 0px;
+    padding: 0px;
 }
 
 .treeBox2 {
     position: absolute;
     bottom: 75px;
     right: 78px; 
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
 }
 
 .treeBox3 {
     position: absolute;
     bottom: 60px;
     left: 67px; 
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
 }
 
 img {
