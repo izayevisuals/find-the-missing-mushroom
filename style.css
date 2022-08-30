@@ -6,6 +6,7 @@ body {
     justify-content: center;
 }
 
+
 .gameBox {
     background: rgb(108,238,251);
     background: linear-gradient(0deg, rgba(108,238,251,1) 0%, rgba(66,192,255,1) 100%);
@@ -31,33 +32,22 @@ body {
     width: 98.5%;
 }
 
+
 .treeBox1 {
     position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     bottom: 50px; 
     z-index: 1;
     margin: 0px;
     padding: 0px;
+    border: 1px solid red;
+    width: 100%;
 }
 
-.treeBox2 {
-    position: absolute;
-    bottom: 75px;
-    right: 78px; 
-    margin: 0px;
-    padding: 0px;
-    z-index: 1;
-}
 
-.treeBox3 {
-    position: absolute;
-    bottom: 60px;
-    left: 67px; 
-    margin: 0px;
-    padding: 0px;
-    z-index: 1;
-}
-
-img {
+.tree{
     width: 10rem;
 }
 
