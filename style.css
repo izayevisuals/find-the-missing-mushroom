@@ -12,11 +12,11 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: 'Silkscreen', cursive;
-    width: 68rem;
+    width: 60rem;
     margin: 3vw;
     border: 1rem solid black;
     box-shadow: 0.5rem 0.5rem rgb(50, 50, 50);
-    height: 80vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,45 +24,61 @@ body {
     position: relative;
 }
 
-
 .cloud {
     background-color: white;
     padding: 0.5rem;
     width: 98.5%;
 }
 
-.treeBox1 {
+.messageWon {
+    display: none;
+}
+
+.treeBoxOne {
     position: absolute;
     bottom: 50px; 
     z-index: 1;
     margin: 0px;
     padding: 0px;
+    background: none;
+    border: none;
 }
 
-.treeBox2 {
+
+/* .treeBoxTwo {
     position: absolute;
     bottom: 75px;
     right: 78px; 
     margin: 0px;
     padding: 0px;
     z-index: 1;
+    background: none;
+    border: none;
+
 }
 
-.treeBox3 {
+.treeBoxThree {
     position: absolute;
     bottom: 60px;
     left: 67px; 
     margin: 0px;
     padding: 0px;
     z-index: 1;
-}
+    background: none;
+    border: none;
+
+} */
 
 img {
     width: 10rem;
+    padding: 0;
+    margin: 0;
 }
 
 #mushroom {
     width: 3rem;
+    bottom: 78px;
+    position: absolute;
 }
 
 
