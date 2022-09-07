@@ -68,7 +68,14 @@ body {
 }
 
 .messageWon {
+    position: absolute;
     display: none;
+    bottom: 300px;
+}
+
+.wrongOne {
+    display: none;
+    position: absolute;
     bottom: 300px;
 }
 
@@ -82,29 +89,6 @@ body {
     border: none;
 }
 
-/* .treeBoxTwo {
-    position: absolute;
-    bottom: 75px;
-    right: 78px; 
-    margin: 0px;
-    padding: 0px;
-    z-index: 1;
-    background: none;
-    border: none;
-
-}
-
-.treeBoxThree {
-    position: absolute;
-    bottom: 60px;
-    left: 67px; 
-    margin: 0px;
-    padding: 0px;
-    z-index: 1;
-    background: none;
-    border: none;
-
-} */
 
 img {
     width: 10rem;
@@ -119,6 +103,20 @@ img {
 }
 
 #mushroomTwo {
+    width: 3rem;
+    bottom: 78px;
+    right: 119px;
+    position: absolute;
+}
+
+#mushroomThree {
+    width: 3rem;
+    bottom: 78px;
+    left: 289px;
+    position: absolute;
+}
+
+#blueMushroomOne {
     width: 3rem;
     bottom: 78px;
     right: 119px;
