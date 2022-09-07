@@ -13,10 +13,10 @@ body {
     background-repeat: no-repeat;
     font-family: 'Silkscreen', cursive;
     width: 60rem;
-    margin: 3vw;
+    margin: 3vw 3vw 1.7vw 3vw;
     border: 1rem solid black;
     box-shadow: 0.5rem 0.5rem rgb(50, 50, 50);
-    height: 85vh;
+    height: 78vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,43 @@ body {
 .cloud {
     background-color: white;
     padding: 0.5rem;
-    width: 98.5%;
+    width: 98.3%;
+  
+}
+
+.button {
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.5rem;
+    width: 7rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: rgb(249, 58, 32);
+    border: 2px solid white;
+    margin-bottom: 6rem;
+    box-shadow: 0.1rem 0.1rem rgb(50, 50, 50);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(223, 26, 0);
+    box-shadow: 0.2rem 0.2rem rgb(50, 50, 50);
+}
+
+
+#mainButton {
+    position: absolute;
+    width: auto;
+    margin: 0;
+    left: 10px;
+    top: 185px;
+}
+
+#nextButton {
+    position: absolute;
+    width: auto;
+    margin: 0;
+    right: 13px;
+    top: 185px;
 }
 
 .messageWon {
@@ -43,7 +79,6 @@ body {
     background: none;
     border: none;
 }
-
 
 /* .treeBoxTwo {
     position: absolute;
@@ -88,9 +123,21 @@ img {
     background-image: url('grass.png');
 }
 
+.musicIconBox {
+    margin: 0rem;
+    width: 2rem;
+}
+
+#musicOn {
+    width: 100%;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
 
 h1 {
-    font-family: 'Silkscreen', cursive;
     font-weight: 700;
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -100,3 +147,4 @@ h1 {
 p {
     text-align: center;
 }
+
