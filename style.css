@@ -59,6 +59,7 @@ body {
 }
 
 #nextButton {
+    display: none;
     position: absolute;
     width: auto;
     margin: 0;
@@ -68,6 +69,7 @@ body {
 
 .messageWon {
     display: none;
+    bottom: 300px;
 }
 
 .treeBoxOne {
@@ -110,9 +112,16 @@ img {
     margin: 0;
 }
 
-#mushroom {
+#mushroom, #mushroomOne {
     width: 3rem;
     bottom: 78px;
+    position: absolute;
+}
+
+#mushroomTwo {
+    width: 3rem;
+    bottom: 78px;
+    right: 119px;
     position: absolute;
 }
 
@@ -143,6 +152,12 @@ h1 {
     background-color: rgb(255, 255, 255);
 }
 
+h2 {
+    padding: 0rem;
+    margin: 0rem;
+    position: absolute;
+    top: 300px;
+}
 
 p {
     text-align: center;

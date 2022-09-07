@@ -5,8 +5,7 @@ document.getElementById('treeTwo').addEventListener('click', hideTreeTwo)
 document.getElementById('treeThree').addEventListener('click', hideTreeThree)
 document.getElementById('treeFour').addEventListener('click', hideTreeFour)
 document.getElementById('treeFive').addEventListener('click', hideTreeFive)
-document.getElementById('treeSix').addEventListener('click', hideTreeSix)
-document.getElementById('treeSeven').addEventListener('click', hideTreeSeven)
+
 // document.getElementById('treeSix').addEventListener('click', hideTreeSix)
 // document.getElementById('treeSeven').addEventListener('click', hideTreeSeven)
 // document.getElementById('treeEight').addEventListener('click', hideTreeEight)
@@ -31,7 +30,9 @@ function hideTreeTwo() {
 
 function hideTreeThree() {
     document.getElementById('treeThree').style.visibility = 'hidden'
+    document.getElementById('nextButton').style.display = 'block'
     document.querySelector('.messageWon').style.display = 'block'
+    document.querySelector('.messageWon').style.position = 'absolute'
 }
 
 function hideTreeFour() {
@@ -42,13 +43,13 @@ function hideTreeFive() {
     document.getElementById('treeFive').style.visibility = 'hidden'
 }
 
-function hideTreeSix() {
-    document.getElementById('treeSix').style.visibility = 'hidden'
-}
+// function hideTreeSix() {
+//     document.getElementById('treeSix').style.visibility = 'hidden'
+// }
 
-function hideTreeSeven() {
-    document.getElementById('treeSeven').style.visibility = 'hidden'
-}
+// function hideTreeSeven() {
+//     document.getElementById('treeSeven').style.visibility = 'hidden'
+// }
 
 
 // function hideTreeSix() {
