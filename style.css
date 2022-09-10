@@ -70,13 +70,13 @@ body {
 .messageWon {
     position: absolute;
     display: none;
-    bottom: 300px;
+    bottom: 250px;
 }
 
 .wrongOne {
     display: none;
     position: absolute;
-    bottom: 300px;
+    bottom: 250px;
 }
 
 .treeBoxOne {
